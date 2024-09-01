@@ -37,6 +37,14 @@ public class Empresa {
 		return 0; // to DO 
 	}
 	
+	public String getNombre() {
+		return nombre; 
+	}
+	
+	public int getCUIT () {
+		return CUIT;
+	}
+	
 }
 	
 	
