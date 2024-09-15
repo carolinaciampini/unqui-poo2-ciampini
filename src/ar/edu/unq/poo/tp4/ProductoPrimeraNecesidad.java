@@ -26,7 +26,10 @@ public class ProductoPrimeraNecesidad {
 	}
 	
 	public Double getPrecio() {
-		return precio;
+		double precioTotal = this.precio * 0.9 ;
+		
+		return precioTotal;
+
 	}
 	
 	public boolean esPrecioCuidado() {
